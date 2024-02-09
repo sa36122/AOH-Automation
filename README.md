@@ -36,21 +36,21 @@ streamlit run aoh_streamlit.py
 #### Streamlit UI
 
 <p align="center">
-  <img src="../design/streamlit-app.png" width="85%" height="85%"><br>
+  <img src="design/streamlit-app.png" width="85%" height="85%"><br>
   <span style="display: block; text-align: center;"><em>Figure 1: Streamlit AOH Application</em></span>
 </p>
 
 #### AOH - File Upload
 
 <p align="center">
-  <img src="../design/file-upload.png" width="85%" height="85%"><br>
+  <img src="design/file-upload.png" width="85%" height="85%"><br>
   <span style="display: block; text-align: center;"><em>Figure 2: AOH File Upload Feature</em></span>
 </p>
 
 #### AOH - Agent Analysis
 
 <p align="center">
-  <img src="../design/file-upload.png" width="85%" height="85%"><br>
+  <img src="design/file-upload.png" width="85%" height="85%"><br>
   <span style="display: block; text-align: center;"><em>Figure 3: AOH Agent Analyis Feature</em></span>
 </p>
 

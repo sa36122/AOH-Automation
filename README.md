@@ -5,7 +5,7 @@ We use [Streamlit](https://streamlit.io/) in this solution to launch an example 
 - **AOH - File Upload:** Enables the user to upload their local AOH document to the Amazon S3 bucket that is being used as the [AmazonTextractPDFLoader](https://api.python.langchain.com/en/latest/document_loaders/langchain_community.document_loaders.pdf.AmazonTextractPDFLoader.html) data source.
 - **AOH - Agent Analysis:** Once a file is uploaded, this option becomes visible, allowing the user to automate the interpretation and fulfillment of AOH work instructions on a specific AOH document to determine compliance with FA requirements. 
 
-To isolate our Streamlit application dependencies and for ease of deployment, we use the [setup-streamlit-env.sh](../agent/streamlit/setup-streamlit-env.sh) shell script to create a virtual Python environment with the requirements installed.
+To isolate our Streamlit application dependencies and for ease of deployment, we use the [create-streamlit-env.sh](shell/create-streamlit-env.sh) shell script to create a virtual Python environment with the requirements installed.
 
 1.	Before you run the shell script, navigate to the directory where you cloned the amazon-bedrock-samples repository and modify the Streamlit shell script permissions to executable:
 
@@ -36,21 +36,21 @@ streamlit run aoh_streamlit.py
 #### Streamlit UI
 
 <p align="center">
-  <img src="design/streamlit-app.png" width="85%" height="85%"><br>
+  <img src="design/streamlit-app.png"><br>
   <span style="display: block; text-align: center;"><em>Figure 1: Streamlit AOH Application</em></span>
 </p>
 
 #### AOH - File Upload
 
 <p align="center">
-  <img src="design/file-upload.png" width="85%" height="85%"><br>
+  <img src="design/file-upload.png"><br>
   <span style="display: block; text-align: center;"><em>Figure 2: AOH File Upload Feature</em></span>
 </p>
 
 #### AOH - Agent Analysis
 
 <p align="center">
-  <img src="design/agent-analysis.png" width="85%" height="85%"><br>
+  <img src="design/agent-analysis.png"><br>
   <span style="display: block; text-align: center;"><em>Figure 3: AOH Agent Analyis Feature</em></span>
 </p>
 

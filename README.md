@@ -54,22 +54,12 @@ streamlit run aoh_streamlit.py
   <span style="display: block; text-align: center;"><em>Figure 3: AOH Agent Analyis Feature</em></span>
 </p>
 
-While the demonstrated solution showcases the capabilities of Agents and Knowledge Bases for Amazon Bedrock, it is important to understand that this solution is not Production-ready. Rather, it serves as a conceptual guide for developers aiming to create personalized agents for their own specific tasks and automated workflows. Developers aiming for production deployment should refine and adapt this initial model, keeping in mind the several key considerations outlined in the [Amazon Bedrock generative AI agent blog](https://aws.amazon.com/blogs/machine-learning/build-generative-ai-agents-with-amazon-bedrock-amazon-dynamodb-amazon-kendra-amazon-lex-and-langchain/).
+While the demonstrated solution showcases the capabilities of Amazon Bedrock FMs with LangChain, it is important to understand that this solution is not Production-ready. Rather, it serves as a conceptual guide for developers aiming to create personalized agents for their own specific tasks and automated workflows. Developers aiming for production deployment should refine and adapt this initial model, keeping in mind the several key considerations outlined in the [Amazon Bedrock generative AI agent blog](https://aws.amazon.com/blogs/machine-learning/build-generative-ai-agents-with-amazon-bedrock-amazon-dynamodb-amazon-kendra-amazon-lex-and-langchain/).
 
 ## Resources
 - [Generative AI on AWS](https://aws.amazon.com/generative-ai/)
 - [Amazon Bedrock](https://aws.amazon.com/bedrock/)
 - [LangChain LLMChain](https://api.python.langchain.com/en/latest/chains/langchain.chains.llm.LLMChain.html#langchain.chains.llm.LLMChain)
-
----
-
-## Clean Up
-see [Clean Up](../documentation/clean-up.md)
-
----
-
-## README
-see [README](../README.md)
 
 ---
 

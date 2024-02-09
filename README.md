@@ -50,7 +50,7 @@ streamlit run aoh_streamlit.py
 #### AOH - Agent Analysis
 
 <p align="center">
-  <img src="design/file-upload.png" width="85%" height="85%"><br>
+  <img src="design/agent-analysis.png" width="85%" height="85%"><br>
   <span style="display: block; text-align: center;"><em>Figure 3: AOH Agent Analyis Feature</em></span>
 </p>
 
